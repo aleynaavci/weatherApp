@@ -15,40 +15,42 @@
     <div class="container">
         <div class="box">
             <i class="fa-solid fa-location-dot"></i>
-            <input type="text" placeholder="Enter your location">
+            <input type="text" id="search" placeholder="Enter your location">
             <button class="fa-solid fa-magnifying-glass"></button>
         </div>
         <div class="weather">
             <img id="icon" src="./css/icons/sun/26.png" alt="" />
             <div class="temperature">
-                <h1 id="temperature">0<span class="scale">°C</span></h1>
+                <h1 id="temperature" style="font-size: large;"><span class="scale">°C</span></h1>
                 <div class="condition">
                     <h2>bulutlu</h2>
                 </div>
             </div>
+        </div>
 
-        </div>
+
         <hr class="divider">
-        <div class="details ">
-            <div class="humidity ">
-                <i class="fa-solid fa-water "><span>dsf</span></i>
-                <p id="text ">Humidity</p>
+        <div class="details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"><span></span></i>
+                <p class="text ">Humidity</p>
             </div>
-            <div class="rain ">
-                <i class="fas fa-tint "><span>dsf</span></i>
-                <p id="text ">perc - 0%</p>
+            <div class="pressure">
+                <i class="fa-regular fa-tire-pressure-warning"><span></span></i>
+                <p class="text">Pressure</p>
             </div>
-            <div class="wind ">
-                <i class="fa-solid fa-wind "><span>dsf</span></i>
-                <p id="text ">Wind speed</p>
+            <div class="wind">
+                <i class="fa-solid fa-wind "><span></span></i>
+                <p class="text">Wind speed</p>
             </div>
         </div>
-        <hr class="divider">
-        <div class="date ">
-            <p id="text">Monday<br/> 12:00:00</p>
-        </div>i
+        <hr class="divider1">
+        <div class="date">
+            <p class="text" id="text-d">Monday</p>
+            <p class="text" id="text-h">12:00:00</p>
+        </div>
     </div>
-    <script src="script.js "></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
